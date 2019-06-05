@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Apr-2019, 11:08:13
+    Author     : 3053561
+*/
+
+.form{
+    background: url(../images/background.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;    
+}
+
+.image {
+    background: url(../images/background2.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat; 
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h3, h2 {    
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    background: none !important;
+    background: none;
+	color:  #ff0000;
+	border: none;
+	
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+  color: #ff0000;
+  opacity: 100%;
+
+}
+
+.welcome {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.feedback {
+  display: block;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 50%;
+  color: #ff0000;
+}
+
+.left {
+    margin-left: 130px;
+}
+
+.right {
+    margin-right: 130px;
+}
+
+.studentno {
+    margin-top: 130px;
+    background: white; 
+    border-radius: 25px;
+    border-style: solid;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.hidebutton {
+    
+    display: none;
+}
+
+
+input {
+   height: 50px;
+   font-size: 13pt;
+}
+
+.loginform {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;  
+    border: solid;
+    border-color: #ff0000;
+    padding: 15px;
+}
+
+form{
+        background: none !important;
+    background: none;
+	color:  #ff0000;
+	border: none;
+	
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
