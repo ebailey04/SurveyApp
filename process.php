@@ -16,8 +16,8 @@ $date = date("Y-m-d");
     
 
     $today = date('H:i:s');
-    $time = date('H:i:s', strtotime($today) + 60 * 60);
-    
+//    $time = date('H:i:s', strtotime($today));
+    $time = date("H:i:s", strtotime('+5 hours'));
     
     if($studentlength <= 6 || $studentlength >= 9) {
         echo "Error";

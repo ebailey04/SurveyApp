@@ -13,7 +13,7 @@ if($number == 1){
     echo $date;
 
     $today = date('H:i:s');
-    $time = date('H:i:s', strtotime($today) + 60 * 60);
+    $time = date("H:i:s", strtotime('+5 hours'));
     echo $time;
     
     $query="INSERT INTO appdata (date, goodbad, time) VALUES ('$date', '$number', '$time')";
@@ -42,7 +42,7 @@ $result = mysqli_query($conn,$query) or die(mysqli_error($conn));
     echo $date;
 
     $today = date('H:i:s');
-    $time = date('H:i:s', strtotime($today) + 60 * 60);
+    $time = date("H:i:s", strtotime('+5 hours'));
     echo $time;
     
     $query="INSERT INTO appdata (date, goodbad, time) VALUES ('$date', '$number', '$time')";
